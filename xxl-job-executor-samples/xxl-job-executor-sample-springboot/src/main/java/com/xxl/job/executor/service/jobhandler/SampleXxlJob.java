@@ -250,4 +250,11 @@ public class SampleXxlJob {
     }
 
 
+    @XxlJob("wxTemplate")
+    public void wxTemplate() throws Exception {
+
+        System.out.println("hello world!");
+    }
+
+
 }

@@ -11,6 +11,7 @@ public class XxlJobAdminApplication {
 
 	public static void main(String[] args) {
         SpringApplication.run(XxlJobAdminApplication.class, args);
+		System.out.println("xxl-job启动成功！！！！！！！！！！！！！");
 	}
 
 }
